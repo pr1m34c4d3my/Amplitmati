@@ -1,0 +1,50 @@
+<div className='flex flex-wrap justify-between border-t-2 border-white'>
+    <div className='w-6/12 pl-48'>
+        <div>
+            <button>TAG</button>
+        </div>
+        <div>
+            <img src={imgPlaceholder}></img>
+        </div>
+        <div>
+            <h1>Title</h1>
+        </div>
+    </div>
+    <div className='w-6/12 pl-40'>
+        <div>
+            <button>TAG</button>
+        </div>
+        <div>
+            <img src={imgPlaceholder}></img>
+        </div>
+        <div>
+            <h1>Title</h1>
+        </div>
+    </div>
+</div>
+<div className='flex flex-wrap justify-center items-center mx-auto w-full'>
+    <div>
+        <div>
+            <button>TAG</button>
+        </div>
+        <div>
+            <h1>Title</h1>
+        </div>
+    </div>
+    <div>
+        <div>
+            <button>TAG</button>
+        </div>
+        <div>
+            <h1>Title</h1>
+        </div>
+    </div>
+    <div>
+        <div>
+            <button>TAG</button>
+        </div>
+        <div>
+            <h1>Title</h1>
+        </div>
+    </div>
+</div>
