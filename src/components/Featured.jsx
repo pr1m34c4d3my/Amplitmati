@@ -6,14 +6,8 @@ import imgPlaceholder2 from '../assets/placeholder2.png'
 
 export default function Featured() {
     let navigate = useNavigate();
-    let thumbnailItem = useRef(null);
-    let thumbnailItem2 = useRef(null);
-    let thumbnailImg = useRef(null);
-    let thumbnailImg2 = useRef(null);
-    let thumbnailText = useRef(null);
-    let thumbnailText2 = useRef(null);
+    let thumbnailItem, thumbnailItem2, thumbnailImg, thumbnailImg2, thumbnailText, thumbnailText2 = useRef(null);
   
-
 
     useEffect(() => {
         TweenMax.to(
