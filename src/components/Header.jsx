@@ -9,7 +9,7 @@ import iconUser from '../assets/account.png'
 
 export default function Header () {
   return (
-    <nav className="sticky top-0 py-5 bg-[#211f20] shadow-sm">
+    <nav className="sticky z-50 top-0 py-5 bg-[#211f20] shadow-sm">
       <div className="container mx-auto">
         <div className="item-center flex">
           <div className="flex w-2/12 items-center ">

@@ -1,8 +1,8 @@
-import React from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import "./components/fontAwesome";
+import React, {useRef} from 'react'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import News from './pages/News';
+import {TweenMax, Power3 } from 'gsap';
 
 
 function App() {
