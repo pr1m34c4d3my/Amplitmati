@@ -17,8 +17,8 @@ export default function Header () {
             <NavLink to="/"><img src={imgLogo} alt="" className="w-8/12 ml-8 mt-2" /></NavLink>
           </div>
 
-          <div className="flex w-8/12 items-center ">
-            <ul className='flex mx-auto mt-4 text-[16px] font-reguler text-white'>
+          <div className="flex w-8/12 items-center">
+            <ul className=' lg:flex mx-auto mt-4 text-[16px] font-reguler text-white  sm:hidden'>
                 <NavLink to="/news"><li className='mr-8'>Charts</li></NavLink>
                 <li className='mr-8'>Music</li>
                 <li className='mr-8'>Culture</li>

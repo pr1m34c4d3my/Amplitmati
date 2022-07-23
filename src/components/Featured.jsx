@@ -8,7 +8,7 @@ export default function Featured() {
   return (
     <div className='container mx-auto border-t-2 border-white'>
             <div className='flex flex-wrap justify-between border-t-2 border-b-4 border-white'>
-                <div className='w-6/12 pl-3 border-r-4 border-white pt-16 pb-8'>
+                <div className='w-6/12 pl-3 pr-14 border-r-4 border-white pt-16 pb-8'>
                     <div className='container'>
                         <button className='bg-red-600 mb-4 px-4 py-2 text-white text-xs rounded-2xl' onClick={()=>{navigate("/news")}}>top story</button>
                     </div>
@@ -19,7 +19,7 @@ export default function Featured() {
                         <NavLink to='/news'><h1>Ye Planning Rusia Trip to Meet Putin and Perform Sunday Service</h1></NavLink>
                     </div>
                 </div>
-                <div className='w-6/12 pl-14 pt-16 pb-8'>
+                <div className='w-6/12 pl-14 pr-3 pt-16 pb-8'>
                     <div className='container'>
                         <button className=' bg-red-600 mb-4 px-4 py-2 text-white text-xs rounded-2xl' onClick={()=>{navigate("/news")}}>chart beat</button>
                     </div>
